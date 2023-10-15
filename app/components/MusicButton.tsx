@@ -24,7 +24,7 @@ const MusicButton: React.FC = () => {
     }   
 
     return (
-        <main className='cursor-pointer flex flex-row justify-end p-4' onClick={togglePlayback}>
+        <main className='w-full cursor-pointer flex flex-row justify-end p-4' onClick={togglePlayback}>
             {playing ? <SpeakerWave /> : <SpeakerX />}
         </main>
     )
